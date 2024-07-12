@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  code: MyString
+  description: MyString
+  name: MyString
+  initiated_at: MyString
+  datetime: MyString
+  finalized_at: MyString
+  datetime: MyString
+
+two:
+  code: MyString
+  description: MyString
+  name: MyString
+  initiated_at: MyString
+  datetime: MyString
+  finalized_at: MyString
+  datetime: MyString
