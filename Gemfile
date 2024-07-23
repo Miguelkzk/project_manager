@@ -69,4 +69,6 @@ gem 'amazing_print'
 gem 'byebug'
 gem 'solargraph'
 gem 'cancancan'
+gem 'paranoia', '~> 2.6' # gema para la baja logica de entidades
+
 

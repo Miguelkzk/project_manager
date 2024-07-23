@@ -4,7 +4,7 @@ class CreateMembers < ActiveRecord::Migration[7.1]
       t.string :name
       t.string :last_name
       t.string :card_id
-      t.datetime :deleted_at
+      t.datetime :deleted_at, index: true
       t.string :code
       t.timestamps
     end
