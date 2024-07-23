@@ -4,6 +4,7 @@ class CreateProjets < ActiveRecord::Migration[7.1]
       t.string :code
       t.string :description
       t.string :name
+      t.integer :status
       t.datetime :initiated_at
       t.datetime :finalized_at
 

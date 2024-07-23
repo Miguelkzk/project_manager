@@ -68,3 +68,5 @@ end
 gem 'amazing_print'
 gem 'byebug'
 gem 'solargraph'
+gem 'cancancan'
+
