@@ -1,8 +1,11 @@
 class Projet < ApplicationRecord
+  # Relations
   belongs_to :product
   belongs_to :client
   belongs_to :work_team, optional: true
+  has_many :sprints
 
+  # Validates
   validates :product, presence: true
   validates :client, presence: true
 
