@@ -1,5 +1,7 @@
 class Product < ApplicationRecord
-  has_many :projets, dependent: :nullify # de igual manera que clients
-  acts_as_paranoid
+  # relations
+  has_many :projets
+  belongs_to :work_team, optional: true
 
+  acts_as_paranoid
 end

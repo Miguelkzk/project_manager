@@ -9,6 +9,7 @@ class Projet < ApplicationRecord
   validates :product, presence: true
   validates :client, presence: true
 
+  # enums
   enum status: {
     created: 0,
     started: 1,
