@@ -1,6 +1,6 @@
 class CreateProjets < ActiveRecord::Migration[7.1]
   def change
-    create_table :projets do |t|
+    create_table :projects do |t|
       t.string :code
       t.string :description
       t.string :name

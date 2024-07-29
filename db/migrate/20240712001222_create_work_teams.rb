@@ -5,7 +5,7 @@ class CreateWorkTeams < ActiveRecord::Migration[7.1]
       t.string :description
       t.string :name
       t.datetime :deleted_at, index: true
-      t.integer :max_projets
+      t.integer :max_projects
       t.timestamps
     end
   end
